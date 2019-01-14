@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html land='en'>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+  <script type="text/javascript" src="ex2.js"></script>
+  <link href="style.css" rel="stylesheet"></link>
+  <link href="https://fonts.googleapis.com/css?family=Lobster|PT+Sans" rel="stylesheet"></link>
+</head>
+<body>
+  <form>
+    <p class='form-header'>
+      Фильтр
+    </p>
+    <div class='input-block' id='checkboxes'>
+      <p class='block-header'>
+        Размер
+      </p>
+      <label for='size-S'>S</label>
+      <input class='radio is-checked' name='size' id='size-S' type='radio' value='S'></input>
+
+      <label for='size-M'>M</label>
+      <input class='radio is-checked' name='size' id='size-M' type='radio' value='M'></input>
+
+      <label for='size-L'>L</label>
+      <input class='radio is-checked' name='size' id='size-L' type='radio' value='L'></input>
+    </div>
+
+    <div class='input-block'>
+      <p class='block-header'>
+        Цвет
+      </p>
+      <label for='color-1'>1</label>
+      <input id='color-1' class='is-checked' type='checkbox' value='1'></input>
+
+      <label for='color-2'>2</label>
+      <input id='color-2' class='is-checked' type='checkbox' value='2'></input>
+
+      <label for='color-3'>3</label>
+      <input id='color-3' class='is-checked' type='checkbox' value='3'></input>
+
+      <label for='color-4'>4</label>
+      <input id='color-4' class='is-checked' type='checkbox' value='4'></input>
+
+      <label for='color-5'>5</label>
+      <input id='color-5' class='is-checked' type='checkbox' value='5'></input>
+    </div>
+
+    <div class='input-block'>
+      <p class='block-header'>
+        Производитель
+      </p>
+      <select multiple class='select is-checked'>
+        <option class='is-checked' value='aaa'>aaa</option>
+        <option class='is-checked' value='b&c'>b&c</option>
+        <option class='is-checked' value='ddd'>ddd</option>
+        <option class='is-checked' value='eee'>eee</option>
+      </select>
+    </div>
+
+    <div class='input-block'>
+      <label class='block-header' for='color-1'>Распродажа</label>
+      <input id='color-1' type='checkbox' value='1'></input>
+    </div>
+
+  </form>
+
+</body>
+</html
